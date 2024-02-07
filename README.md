@@ -1,6 +1,11 @@
 ## React Task App
 In this task project there were two probelm. One is a task management and another one is contact list display. I did my best but **one issue was with the given contact list API**. The api does not work due to the CORS policy. I think in the backend server, it is restricted to call the API from specific client app.
 
+#### Live Preview Link
+```Live:``` https://mediusware-react.vercel.app
+#### Final Output Screen Record Video
+```Video:``` https://drive.google.com/file/d/13IBXsAfSxP8yxHgUB7QabVeOolHdSdX9/view
+
 ### Technology Used
 1) React
 2) Bootstrap, ReactBootstrap
