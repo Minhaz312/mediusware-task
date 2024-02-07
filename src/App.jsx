@@ -6,15 +6,16 @@ import Index from "./components/Index.jsx";
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Index />} />
-        <Route path="/" element={<Menu />}>
-          <Route path="problem-1" element={<Problem1 />} />
-          <Route path="problem-2" element={<Problem2 />} />
-        </Route>
-      </Routes>
-    </>
+      <>
+          <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/" element={<Menu />}>
+                  <Route path="problem-1" element={<Problem1 />} />
+                  <Route path="problem-2" element={<Problem2 />} />
+                  <Route path="problem-2/:modal" element={<Problem2 />} />
+              </Route>
+          </Routes>
+      </>
   );
 }
 
